@@ -138,6 +138,7 @@ install_requires = [
     "scipy",
     "cython >= " + min_cython_ver,
     "fastdtw",
+    "numpy >= 1.20.0, <2.0.0",
     "scikit-learn",
     "pysptk >= 0.1.17",
     "tqdm",
@@ -157,7 +158,6 @@ setup(
     package_data={"": package_data},
     ext_modules=ext_modules,
     cmdclass=cmdclass,
-    setup_requires=["numpy >= 1.20.0, <2.0.0"],
     install_requires=install_requires,
     tests_require=["nose", "coverage"],
     extras_require={
