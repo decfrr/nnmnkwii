@@ -157,7 +157,7 @@ setup(
     package_data={"": package_data},
     ext_modules=ext_modules,
     cmdclass=cmdclass,
-    setup_requires=["numpy >= 1.20.0, <2"],
+    setup_requires=["numpy >= 1.20.0, <2.0.0"],
     install_requires=install_requires,
     tests_require=["nose", "coverage"],
     extras_require={
