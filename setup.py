@@ -142,6 +142,7 @@ install_requires = [
     "scikit-learn",
     "pysptk >= 0.1.17",
     "tqdm",
+    "numpy >= 1.20.0, <2",
 ]
 
 setup(
